@@ -84,7 +84,7 @@ main{
 .b-title{
     margin-top: 24px;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 40px;
 }
 .b-description{
     margin-top: 12px;
@@ -157,4 +157,15 @@ main{
     background-color:rgba(255, 194, 57, 1) ;
     border: none;
     border-radius: 8px;
+}
+.qoute{
+    width: 1480px;
+    height: 200px;
+    background-image: url('assets/quote-bg.png');
+    background-repeat:no-repeat;
+    background-color: white;
+    border-radius: 16px;
+    border-color: rgb(14, 14, 14);
+    margin: 32px auto;
+    padding: 48px 24px;
 }
