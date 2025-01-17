@@ -60,6 +60,8 @@ body{
     border: none;
     border-radius: 8px;
     margin-top: 41px;
+    font-weight: 600;
+    font-size: 18px;
 }
 main{
     width: 80%;
@@ -77,6 +79,7 @@ main{
     padding: 24px;
     border-radius: 16px;
     background-color: white;
+    margin-bottom: 80px;
 }
 .b-title{
     margin-top: 24px;
@@ -91,4 +94,67 @@ main{
 }
 .card-container h1{
     font-size: 40px;
+}
+.future-container h1{
+    font-weight: 700;
+    font-size: 40px;
+}
+.energy{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+.b-2a{
+    width: 410px;
+    height: 300px;
+    padding: 32px;
+    border-radius: 16px;
+    background-color: rgba(84, 144, 245, 0.2);
+}
+.b-2b{
+    width: 410px;
+    height: 300px;
+    padding: 32px;
+    border-radius: 16px;
+    background-color: rgba(198, 228, 214, 1);
+}
+.b-2c{
+    width: 410px;
+    height: 300px;
+    padding: 32px;
+    border-radius: 16px;
+    background-color: rgba(247, 235, 207, 1);
+}
+.e-btn1{
+    width: 122px;
+    height: 41px;
+    font-weight:600;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 24px;
+    background-color: rgba(84, 144, 245, 1);
+    border: none;
+    border-radius: 8px;
+}
+.e-btn2{
+    width: 122px;
+    height: 41px;
+    font-weight:600;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 48px;
+    background-color: rgba(9, 161, 92, 1);
+    border: none;
+    border-radius: 8px;
+}
+.e-btn3{
+    width: 122px;
+    height: 41px;
+    font-weight:600;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 25px;
+    background-color:rgba(255, 194, 57, 1) ;
+    border: none;
+    border-radius: 8px;
 }
