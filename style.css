@@ -165,7 +165,51 @@ main{
     background-repeat:no-repeat;
     background-color: white;
     border-radius: 16px;
-    border-color: rgb(14, 14, 14);
+    border:1px solid gray;
     margin: 32px auto;
     padding: 48px 24px;
+}
+.t-head{
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    background-color: rgba(198, 228, 214, 1);
+    padding: 24px 32px;
+    border: 1px solid rgba(98, 158, 98, 0.61);
+}
+.agree{
+    width: 1480px;
+    height: 340px;
+    background-color: white;
+    border-radius: 16px;
+    margin: 32px auto;
+    padding: 48px 32px;
+}
+td{
+    border: 1px solid rgba(98, 158, 98, 0.61) ;
+    align-items: center;
+    padding: 24px;
+}
+table{
+    border-collapse:collapse ;
+    width: 100%;
+}
+.selection{
+    width: 152px;
+    height: 44px;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 4px;
+    text-align: center;
+    display: flex;
+    background-color: rgba(198, 228, 214, 1);
+}
+.news-card{
+    width: 1540px;
+    height: 402px;
+    border-radius: 24px;
+    margin-top: 32px;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    align-items: center;
 }
